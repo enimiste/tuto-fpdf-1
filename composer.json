@@ -17,6 +17,6 @@
   "require": {
     "nesbot/carbon": "^1.21",
     "illuminate/support": "5.2",
-    "enimiste/fpdf": "~1.0"
+    "enimiste/fpdf": "1.0.7"
   }
 }

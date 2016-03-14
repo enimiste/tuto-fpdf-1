@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1aa6333b828191c4115db99f2e8fe2ee",
-    "content-hash": "5dfde91cf651bc9aa4b5c002c6717643",
+    "hash": "df268d87a6d1cb4f8a1e6712b7374838",
+    "content-hash": "d06d3c6fa45fd70697bc17d357706af3",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -76,20 +76,21 @@
         },
         {
             "name": "enimiste/fpdf",
-            "version": "1.0.1",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/enimiste/fpdf.git",
-                "reference": "78a2ec52711febe979c61d5f930508635b7a39fd"
+                "reference": "cd2ab19f9f94d390a995b00d8736051468f987ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enimiste/fpdf/zipball/78a2ec52711febe979c61d5f930508635b7a39fd",
-                "reference": "78a2ec52711febe979c61d5f930508635b7a39fd",
+                "url": "https://api.github.com/repos/enimiste/fpdf/zipball/cd2ab19f9f94d390a995b00d8736051468f987ec",
+                "reference": "cd2ab19f9f94d390a995b00d8736051468f987ec",
                 "shasum": ""
             },
             "require": {
-                "itbz/fpdf": "^1.7"
+                "itbz/fpdf": "^1.7",
+                "php": "^5.5"
             },
             "type": "library",
             "autoload": {
@@ -108,7 +109,12 @@
                 }
             ],
             "description": "FPDF extensions and facilities",
-            "time": "2016-03-14 14:21:22"
+            "keywords": [
+                "fpdf",
+                "pdf",
+                "switcher"
+            ],
+            "time": "2016-03-14 18:34:02"
         },
         {
             "name": "illuminate/contracts",
