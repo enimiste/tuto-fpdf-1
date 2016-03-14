@@ -6,7 +6,7 @@
  * Time: 11:22
  */
 
-namespace Com\Sport\FeedReader\Contracts;
+namespace Com\NickelIT\SportFeedReader\Contracts;
 
 
 class Categorie

@@ -6,16 +6,15 @@
  * Time: 10:51
  */
 
-namespace Com\Sport;
+namespace Com\NickelIT\SportFeedReader;
 
 
-use Com\Sport\FeedReader\Contracts\Channel;
-use Com\Sport\FeedReader\Contracts\Item;
-use Com\Sport\Support\Contracts\SwitcherInterface;
-use fpdf\FPDF_EXTENDED;
-use Illuminate\Support\Collection;
+use Com\NickelIT\Pdf\MY_FPDF;
+use Com\NickelIT\SportFeedReader\Contracts\Channel;
+use Com\NickelIT\SportFeedReader\Contracts\Item;
+use Com\NickelIT\Support\Contracts\SwitcherInterface;
 
-class SportPdf extends FPDF_EXTENDED
+class SportPdf extends MY_FPDF
 {
     /**
      * @var Channel

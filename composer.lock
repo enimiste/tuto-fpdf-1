@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "81642b79baf5d377d09c59d0080e69b4",
-    "content-hash": "d23eff4bee90dc60b4de5bee1975832f",
+    "hash": "1aa6333b828191c4115db99f2e8fe2ee",
+    "content-hash": "5dfde91cf651bc9aa4b5c002c6717643",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -73,6 +73,42 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "enimiste/fpdf",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enimiste/fpdf.git",
+                "reference": "78a2ec52711febe979c61d5f930508635b7a39fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enimiste/fpdf/zipball/78a2ec52711febe979c61d5f930508635b7a39fd",
+                "reference": "78a2ec52711febe979c61d5f930508635b7a39fd",
+                "shasum": ""
+            },
+            "require": {
+                "itbz/fpdf": "^1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Com\\NickelIT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "NOUNI EL BACHIR",
+                    "email": "nouni.elbachir@gmail.com"
+                }
+            ],
+            "description": "FPDF extensions and facilities",
+            "time": "2016-03-14 14:21:22"
         },
         {
             "name": "illuminate/contracts",

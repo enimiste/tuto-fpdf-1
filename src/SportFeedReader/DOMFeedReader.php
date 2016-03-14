@@ -6,15 +6,15 @@
  * Time: 11:25
  */
 
-namespace Com\Sport\FeedReader;
+namespace Com\NickelIT\SportFeedReader;
 
 
 use Carbon\Carbon;
-use Com\Sport\FeedReader\Contracts\Categorie;
-use Com\Sport\FeedReader\Contracts\Channel;
-use Com\Sport\FeedReader\Contracts\Image;
-use Com\Sport\FeedReader\Contracts\Item;
-use Com\Sport\FeedReader\Contracts\ReaderInterface;
+use Com\NickelIT\SportFeedReader\Contracts\Categorie;
+use Com\NickelIT\SportFeedReader\Contracts\Channel;
+use Com\NickelIT\SportFeedReader\Contracts\Image;
+use Com\NickelIT\SportFeedReader\Contracts\Item;
+use Com\NickelIT\SportFeedReader\Contracts\ReaderInterface;
 
 class DOMFeedReader implements ReaderInterface
 {

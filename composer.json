@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Com\\Sport\\": "src"
+      "Com\\NickelIT\\": "src"
     }
   },
   "require": {
     "nesbot/carbon": "^1.21",
     "illuminate/support": "5.2",
-    "itbz/fpdf": "^1.7"
+    "enimiste/fpdf": "~1.0"
   }
 }

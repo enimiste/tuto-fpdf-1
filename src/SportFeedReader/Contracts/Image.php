@@ -6,7 +6,7 @@
  * Time: 11:13
  */
 
-namespace Com\Sport\FeedReader\Contracts;
+namespace Com\NickelIT\SportFeedReader\Contracts;
 
 
 class Image
