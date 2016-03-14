@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "df268d87a6d1cb4f8a1e6712b7374838",
-    "content-hash": "d06d3c6fa45fd70697bc17d357706af3",
+    "hash": "c3d665010834321f74c4c8ff92eddcd9",
+    "content-hash": "357db6c80d47b23afe19f5b99bc55417",
     "packages": [
         {
             "name": "doctrine/inflector",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
@@ -76,16 +76,16 @@
         },
         {
             "name": "enimiste/fpdf",
-            "version": "1.0.7",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/enimiste/fpdf.git",
-                "reference": "cd2ab19f9f94d390a995b00d8736051468f987ec"
+                "reference": "4a47e8d1ddd3228e41adb7bfb92640510173603d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enimiste/fpdf/zipball/cd2ab19f9f94d390a995b00d8736051468f987ec",
-                "reference": "cd2ab19f9f94d390a995b00d8736051468f987ec",
+                "url": "https://api.github.com/repos/enimiste/fpdf/zipball/4a47e8d1ddd3228e41adb7bfb92640510173603d",
+                "reference": "4a47e8d1ddd3228e41adb7bfb92640510173603d",
                 "shasum": ""
             },
             "require": {
@@ -114,20 +114,20 @@
                 "pdf",
                 "switcher"
             ],
-            "time": "2016-03-14 18:34:02"
+            "time": "2016-03-14 20:07:07"
         },
         {
             "name": "illuminate/contracts",
-            "version": "5.2.x-dev",
+            "version": "v5.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "411b851962c211078ade7664a6976e77a78cd2a5"
+                "reference": "eea3cf7ce90651e067a914d16383b019da45fcb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/411b851962c211078ade7664a6976e77a78cd2a5",
-                "reference": "411b851962c211078ade7664a6976e77a78cd2a5",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/eea3cf7ce90651e067a914d16383b019da45fcb5",
+                "reference": "eea3cf7ce90651e067a914d16383b019da45fcb5",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2016-03-07 20:37:17"
+            "time": "2016-02-22 09:18:57"
         },
         {
             "name": "illuminate/support",
@@ -294,7 +294,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -353,16 +353,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "dev-master",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "24c83c337998669e7ab3765dccea27f50d777076"
+                "reference": "2de0b6f7ebe43cffd8a06996ebec6aab79ea9e91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/24c83c337998669e7ab3765dccea27f50d777076",
-                "reference": "24c83c337998669e7ab3765dccea27f50d777076",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/2de0b6f7ebe43cffd8a06996ebec6aab79ea9e91",
+                "reference": "2de0b6f7ebe43cffd8a06996ebec6aab79ea9e91",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +386,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -413,12 +413,12 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-04 07:56:56"
+            "time": "2016-02-02 13:44:19"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,

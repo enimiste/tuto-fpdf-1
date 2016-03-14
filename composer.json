@@ -1,7 +1,6 @@
 {
   "name": "nouni/pdf-generator-tuto",
   "description": "Tutoriel sur la generation des pdfs using FPDF",
-  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
@@ -17,6 +16,6 @@
   "require": {
     "nesbot/carbon": "^1.21",
     "illuminate/support": "5.2",
-    "enimiste/fpdf": "1.0.7"
+    "enimiste/fpdf": "1.1.0"
   }
 }

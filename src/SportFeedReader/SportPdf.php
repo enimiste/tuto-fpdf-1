@@ -9,11 +9,11 @@
 namespace Com\NickelIT\SportFeedReader;
 
 
+use Com\NickelIT\Pdf\Cell;
 use Com\NickelIT\Pdf\MY_FPDF;
 use Com\NickelIT\SportFeedReader\Contracts\Channel;
 use Com\NickelIT\SportFeedReader\Contracts\Item;
 use Com\NickelIT\Support\Contracts\SwitcherInterface;
-use Pdf\Cell;
 
 class SportPdf extends MY_FPDF {
 	/**
@@ -118,7 +118,7 @@ class SportPdf extends MY_FPDF {
 		$this->Cell( 40, 8, 'Catégories', 1, 0, 'C', true );
 		$this->Ln();
 		/** @var Item $item */
-		foreach ( $items as $item ) {
+		foreach ( array_splice( $items, 0, 3 ) as $item ) {
 			if ( ! is_null( $switcher ) ) {
 				$this->_drawItem( $item, $switcher->can() );
 			} else {
@@ -145,12 +145,14 @@ class SportPdf extends MY_FPDF {
 		$this->SetFont( 'Arial', '', 10 );
 		$this->SetDrawColor( 0, 0, 0 );
 		$this->SetLineWidth( 0.3 );
-		$this->MultiCell( 45, 8, $item->getTitle(), 1, 'L', true, 0 );
-		$this->MultiCell( 70, 8, substr( $item->getDescription(), 0, 22 ), 1, 'J', true, 0 );
-		$this->MultiCell( 35, 8, $item->getPubDate()->toFormattedDateString(), 1, 'C', true, 0 );
-		$this->MultiCell( 40, 8, implode( ', ', $item->getCategories() ), 1, 'L', true, 0 );
-		$this->Ln();
-	}
 
+		$cells = [
+			new Cell( 45, 8, $item->getTitle(), 1, 'L', true ),
+			new Cell( 70, 8, substr( $item->getDescription(), 0, 200 ), 1, 'J', true ),
+			new Cell( 35, 8, $item->getPubDate()->toFormattedDateString(), 1, 'C', true ),
+			new Cell( 40, 8, implode( ', ', $item->getCategories() ), 1, 'L', true ),
+		];
+		$this->MutliCellRow( $cells );
+	}
 
 }
