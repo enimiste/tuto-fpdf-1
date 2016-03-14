@@ -1,0 +1,22 @@
+{
+  "name": "nouni/pdf-generator-tuto",
+  "description": "Tutoriel sur la generation des pdfs using FPDF",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NOUNI EL BACHIR",
+      "email": "nouni.elbachir@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Com\\Sport\\": "src"
+    }
+  },
+  "require": {
+    "nesbot/carbon": "^1.21",
+    "illuminate/support": "5.2",
+    "itbz/fpdf": "^1.7"
+  }
+}
